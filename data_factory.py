@@ -1,3 +1,11 @@
+#@article{liu2023itransformer,
+#  title={iTransformer: Inverted Transformers Are Effective for Time Series Forecasting},
+#  author={Liu, Yong and Hu, Tengge and Zhang, Haoran and Wu, Haixu and Wang, Shiyu and Ma, Lintao and Long, Mingsheng},
+#  journal={arXiv preprint arXiv:2310.06625},
+#  year={2023}
+#}
+
+
 from data_loader import Dataset_ETT_hour, Dataset_ETT_minute, Dataset_Custom, Dataset_Solar, Dataset_PEMS, \
     Dataset_Pred
 from torch.utils.data import DataLoader
