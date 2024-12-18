@@ -1,3 +1,11 @@
+#@article{liu2023itransformer,
+#  title={iTransformer: Inverted Transformers Are Effective for Time Series Forecasting},
+#  author={Liu, Yong and Hu, Tengge and Zhang, Haoran and Wu, Haixu and Wang, Shiyu and Ma, Lintao and Long, Mingsheng},
+#  journal={arXiv preprint arXiv:2310.06625},
+#  year={2023}
+#}
+
+
 from data_factory import data_provider
 from exp_basic import Exp_Basic
 from utils.tools import EarlyStopping, adjust_learning_rate, visual
